@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
-timezone: ''
+title: Twpeak          # 标题
+subtitle: '个人技术分享博客'       	# 副标题
+description: '攀登,直至顶峰'     		# 个签
+keywords: '博客 Linux 服务器 Twpeak' 		# 浏览器搜索关键词
+author: 唐文鹏       # 作者
+language: zh-CN     # 语言en/zh-CN/zh-TW
+timezone: 'Asia/Shanghai'	# 时区
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -45,7 +45,7 @@ relative_link: false
 future: true
 highlight:
   enable: true
-  line_number: true
+  line_number: false
   auto_detect: false
   tab_replace: ''
   wrap: true
@@ -53,7 +53,7 @@ highlight:
 prismjs:
   enable: false
   preprocess: true
-  line_number: true
+  line_number: false
   tab_replace: ''
 
 # Home page setting
@@ -97,7 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
